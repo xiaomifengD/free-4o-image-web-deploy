@@ -2,7 +2,7 @@
 安装方式
 
 ```bash
-curl -sSfL https://raw.githubusercontent.com/xiaomifengD/chatgpt-share-fox-deploy/refs/heads/main/quick-install.sh | bash
+curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/refs/heads/main/quick-install.sh | bash
 ```
 
 
