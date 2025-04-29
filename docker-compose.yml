@@ -9,8 +9,8 @@ services:
     environment:
       TZ: Asia/Shanghai # 指定时区
       MYSQL_ROOT_PASSWORD: "123456" # 配置root用户密码
-      MYSQL_DATABASE: "cool" # 业务库名
-      MYSQL_USER: "cool" # 业务库用户名
+      MYSQL_DATABASE: "aphrodite" # 业务库名
+      MYSQL_USER: "aphrodite" # 业务库用户名
       MYSQL_PASSWORD: "123123" # 业务库密码
   redis:
     image: redis
@@ -30,7 +30,7 @@ services:
       - redis
     environment:
       TZ: Asia/Shanghai
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/cool?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/aphrodite?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 123456
       SPRING_REDIS_HOST: redis
