@@ -26,6 +26,12 @@
 | ⏱️ 用户限速 | 🚧 | 正在开发中 |
 | 🚫 违禁词过滤 | 🚧 | 正在开发中 |
 
+## 演示地址
+https://aphrodite.987234.xyz/index/#/paint
+账号 admin
+密码 123
+后台地址 
+https://aphrodite.987234.xyz/index/#/backend
 ## 🛠️ 技术栈
 
 ### 后端
@@ -40,9 +46,59 @@
 
 ## 📦 快速安装
 
+### 执行脚本
 ```bash
 curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/refs/heads/main/quick-install.sh | bash
 ```
+
+### 新建nginx 反代
+安装后nginx 新建反代 http://127.0.0.1:8400(如果你修改了docker-compose 的映射端口，这里也要修改)
+
+
+![预览](preview2.jpg)
+
+
+
+然后找到配置文件 ->自定义配置文件 -> server块 添加内容
+``` 
+# 可设置server|location等所有server字段，如：
+# location /web {
+#     try_files $uri $uri/ /index.php$is_args$args;
+# }
+# error_page 404 /diy_404.html;
+# 如果反代网站访问异常且这里已经配置了内容，请优先排查此处的配置是否正确
+
+# 可设置server|location等所有server字段，如：
+# location /web {
+#     try_files $uri $uri/ /index.php$is_args$args;
+# }
+# error_page 404 /diy_404.html;
+# 如果反代网站访问异常且这里已经配置了内容，请优先排查此处的配置是否正确
+
+proxy_set_header Host $host;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header REMOTE-HOST $remote_addr;
+
+proxy_buffering off;
+proxy_cache_bypass no_cache;
+
+location /index/ {
+    proxy_pass http://localhost:8400/index.html;
+}
+
+location /api/ {
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    proxy_pass http://localhost:8400/api/;
+}
+
+```
+![预览](preview1.png)
+访问地址 https://域名/index
+后台地址 https://域名/index/#/backend
 
 ## ⚠️ 授权说明
 
