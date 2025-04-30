@@ -31,7 +31,7 @@
 
 | 类型 | 地址 | 凭据 |
 |------|------|------|
-| 🖼️ 前台演示 | [https://aphrodite.987234.xyz](https://aphrodite.987234.xyz) | 账号: `admin`<br>密码: `123` |
+| 🖼️ 前台演示 | [https://aphrodite.987234.xyz](https://aphrodite.987234.xyz) | 账号: `admin`<br>密码: `123456` |
 | ⚙️ 后台管理 | [https://aphrodite.987234.xyz/paint/#/backend](https://aphrodite.987234.xyz/paint/#/backend) | 同上 |
 ## 🛠️ 技术栈
 
