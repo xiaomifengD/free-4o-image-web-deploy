@@ -27,11 +27,11 @@
 | 🚫 违禁词过滤 | 🚧 | 正在开发中 |
 
 ## 演示地址
-https://aphrodite.987234.xyz/index/#/paint
+https://aphrodite.987234.xyz
 账号 admin
 密码 123
 后台地址 
-https://aphrodite.987234.xyz/index/#/backend
+https://aphrodite.987234.xyz/paint/#/backend
 ## 🛠️ 技术栈
 
 ### 后端
