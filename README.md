@@ -70,6 +70,9 @@ curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/ref
 
 ## 📞 联系方式
 
-如果您对本项目感兴趣，欢迎通过微信联系我进行交流：
-
-<img src="wx.jpg" width="200px" alt="添加我的个人微信">
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/xiaomifengD/xiaomifengD/refs/heads/main/img/qun.jpg" width="300"/></td>
+    <td><img src="https://raw.githubusercontent.com/xiaomifengD/xiaomifengD/refs/heads/main/img/contactme.jpg" width="300"/></td>
+  </tr>
+</table>
