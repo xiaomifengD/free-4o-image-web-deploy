@@ -65,7 +65,7 @@ curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/ref
 
 ### 访问信息
 - 🌐 前台访问：`https://您的域名/`
-- 🔧 管理后台：`https://您的域名/paint/#/backend`
+- 🔧 管理后台：`https://您的域名/#/backend`
 
 ## ⚠️ 授权说明
 
