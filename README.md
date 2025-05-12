@@ -7,7 +7,7 @@
 
 ## 📝 项目介绍
 
-4o-image-web-deploy 是一个基于 OAI 生图 API 开发的专业图片创作平台，可用于商业化网站运营。系统兼容 OAPI 生图格式的中转服务和直连服务。
+free-4o-image-web-deploy 是一个基于 OAI 生图 API 开发的专业图片创作平台，可用于个人小范围网站使用。系统兼容 OAPI 生图格式的中转服务和直连服务。
 
 ## ✨ 功能列表
 
@@ -16,19 +16,10 @@
 | 👤 登录注册 | ✅ | 用户账号系统 |
 | 🎨 文生图/图生图 | ✅ | AI 图像生成功能 |
 | 🖼️ 我的作品 | ✅ | 用户创作管理 |
-| 💰 页面购买 | ✅ | 内容付费系统 |
 | 👥 用户管理 | ✅ | 后台用户控制 |
 | 📢 公告管理 | ✅ | 系统通知功能 |
-| 💳 支付管理 | ✅ | 支持易支付，后续将支持更多 |
-| 📋 售卖计划管理 | ✅ | 商业化方案配置 |
-| 🎟️ 优惠券管理 | ✅ | 促销活动支持 |
-| 📊 订单管理 | ✅ | 交易记录系统 |
-| ⏱️ 用户限速 | 🚧 | 正在开发中 |
-| 🚫 违禁词过滤 | 🚧 | 正在开发中 |
 
-## 📅 更新日志
 
-查看最新的[系统更新记录](update.md)，了解最新功能和改进。
 
 ## 🌐 演示站点
 
@@ -52,7 +43,7 @@
 
 ### 执行脚本
 ```bash
-curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/refs/heads/main/quick-install.sh | bash
+curl -sSfL https://raw.githubusercontent.com/xiaomifengD/free-4o-image-web-deploy/refs/heads/main/quick-install.sh | bash
 ```
 
 ### 新建nginx 反代
@@ -69,7 +60,7 @@ curl -sSfL https://raw.githubusercontent.com/xiaomifengD/4o-image-web-deploy/ref
 
 ## ⚠️ 授权说明
 
-本程序为专有软件，不开源。目前处于开发阶段，可申请免费授权使用。
+免费使用，但是不开源。最多可以添加30个用户，想要商业版可以联系作者
 
 ## 📞 联系方式
 

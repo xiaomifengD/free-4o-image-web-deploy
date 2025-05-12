@@ -21,7 +21,7 @@ services:
     volumes:
       - ./data/redis/:/data/
   aphrodite:
-    image: xiaomifengd/aphrodite:latest
+    image: xiaomifengd/free-aphrodite:latest
     restart: always
     ports:
       - "8400:6956"

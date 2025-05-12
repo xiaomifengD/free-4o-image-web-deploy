@@ -3,11 +3,11 @@ set -e
 
 ## 克隆仓库到本地
 echo "clone repository..."
-git clone --depth=1 https://github.com/xiaomifengd/4o-image-web-deploy.git 4o-image-web
+git clone --depth=1 https://github.com/xiaomifengd/free-4o-image-web-deploy.git free-4o-image-web
 
 
 ## 进入目录
-cd 4o-image-web
+cd free-4o-image-web
 
 
 # cat docker-compose.yml
