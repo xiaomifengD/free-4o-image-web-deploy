@@ -27,7 +27,7 @@ free-4o-image-web-deploy 是一个基于 OAI 生图 API 开发的专业图片创
 | 类型 | 地址 | 凭据 |
 |------|------|------|
 | 🖼️ 前台演示 | [https://free-aphrodite.987234.xyz](https://free-aphrodite.987234.xyz) | 账号: `admin`<br>密码: `123456` |
-| ⚙️ 后台管理 | [https://free-aphrodite.987234.xyz/paint/#/backend](https://free-aphrodite.987234.xyz/paint/#/backend) | 同上 |
+| ⚙️ 后台管理 | [https://free-aphrodite.987234.xyz/#/backend](https://free-aphrodite.987234.xyz/paint/#/backend) | 同上 |
 ## 🛠️ 技术栈
 
 ### 后端
